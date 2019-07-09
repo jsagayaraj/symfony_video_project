@@ -1,0 +1,8 @@
+# See https://symfony.com/doc/current/email/dev_environment.html
+swiftmailer:
+    # send all emails to a specific address
+    #delivery_addresses: ['me@example.com']
+
+    # i don't want to send a mail in dev mode
+    disable_delivery: true 
+    spool: { type: 'memory' }

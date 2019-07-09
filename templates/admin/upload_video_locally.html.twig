@@ -1,0 +1,17 @@
+{% extends 'admin/base.html.twig' %}
+
+{% block mainadmin %}
+ <h2>Upload a video</h2>
+ {{form_start(form)}}
+
+{{form_widget(form.uploaded_video)}}
+
+
+{{form_end(form)}}
+
+ 
+
+
+ 
+{% endblock %}
+
